@@ -8,6 +8,7 @@ def oxford_comma(array)
       if number == comma
         fruit << "and "
       elsif number == last
+        fruit << ""
       else
         fruit << ", "
       end
