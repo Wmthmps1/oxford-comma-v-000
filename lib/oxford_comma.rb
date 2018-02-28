@@ -6,7 +6,7 @@ def oxford_comma(array)
     last=array.count-1
     array.each_with_index do |fruit,number|
       if number == comma
-        fruit << "and "
+        fruit << ", and "
       elsif number == last
         fruit << ""
       else
